@@ -91,21 +91,23 @@ i {
 @media all and (max-width: 1200px) {
 
     header {
-        padding: 100px 20vw;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 20px;
+        padding: 50px 0;
     }
 
     .ingredients, .recipe {
         width: 60vw;
         padding: 0;
     }
+
+    .summary div {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    body, h2 {
+        font-size: 30px;
+    }
+
 
 
 }
