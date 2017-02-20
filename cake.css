@@ -60,7 +60,8 @@ h2 {
 
 .header-overlay {
     padding: 40px 60px;
-    background-color: rgba(225, 205, 205, 0.4);
+    background-color: rgba(88, 53, 53, 0.4);
+
 }
 
 li {
@@ -91,7 +92,7 @@ i {
 @media all and (max-width: 1200px) {
 
     header {
-        padding: 50px 0;
+        padding: 0;
     }
 
     .ingredients, .recipe {
@@ -105,9 +106,16 @@ i {
     }
 
     body, h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
 
+    h2 {
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
 
 }
