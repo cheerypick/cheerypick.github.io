@@ -103,12 +103,16 @@ i {
     .summary div {
         flex-grow: 1;
         text-align: center;
+        padding: 40px 0;
     }
 
+    .summary, .summary div, hr {
+        border-width: 2px;
+    }
+    
     body, h2 {
         font-size: 32px;
     }
-
 
     h2 {
         font-weight: 600;
