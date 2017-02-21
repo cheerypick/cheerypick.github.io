@@ -44,6 +44,8 @@ hr  {
 .flex-container, .summary {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .ingredients {
@@ -78,4 +80,39 @@ i {
 footer {
     text-align: center;
     padding: 30px;
+}
+
+@media all and (max-width: 1200px) {
+
+    header {
+        padding: 0;
+    }
+
+    .ingredients, .recipe {
+        width: 80vw;
+        padding: 0;
+    }
+
+    .summary div {
+        flex-grow: 1;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .summary, .summary div, hr {
+        border-width: 2px;
+    }
+
+    body, h2 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
 }
