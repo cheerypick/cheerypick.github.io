@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     background-image: url('cake.jpg');
     background-size: cover;
@@ -15,3 +19,20 @@ header h1, header h2 {
     background-color: rgba(88, 53, 53, 0.4);
 }
 
+.summary {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 2px #eeeeee;
+}
+
+
+.summary div {
+    border-left: 1px solid #eeeeee;
+    padding: 10px 30px;
+}
+
+.summary div:last-child {
+    border-right: 1px solid #eeeeee;
+}
