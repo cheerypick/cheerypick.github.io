@@ -19,9 +19,21 @@ header h1, header h2 {
     background-color: rgba(88, 53, 53, 0.4);
 }
 
-.summary {
+.flex-container, .summary {
     display: flex;
     justify-content: center;
+}
+
+.ingredients {
+    width: 20vw;
+}
+
+.recipe {
+    width: 40vw;
+    padding: 0 40px;
+}
+
+.summary {
     border-bottom: 1px solid #eeeeee;
     margin-bottom: 50px;
     box-shadow: 0 2px 2px #eeeeee;
@@ -35,4 +47,9 @@ header h1, header h2 {
 
 .summary div:last-child {
     border-right: 1px solid #eeeeee;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
 }
