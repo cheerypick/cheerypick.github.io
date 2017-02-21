@@ -1,0 +1,19 @@
+header {
+    background-image: url('cake.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 150px 20vw;
+}
+
+header h1, header h2 {
+    color: #eeeeee;
+    text-align: center;
+}
+
+.header-overlay {
+    padding: 40px 60px;
+    background-color: rgba(88, 53, 53, 0.4);
+
+}
+
