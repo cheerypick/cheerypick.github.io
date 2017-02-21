@@ -1,4 +1,7 @@
 body {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 20px;
+    color: #222222;
     margin: 0;
 }
 
@@ -12,7 +15,26 @@ header {
 header h1, header h2 {
     color: #eeeeee;
     text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 26px;
+    display: block;
+    font-weight: 400;
+}
+
+hr  {
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
 
 .header-overlay {
     padding: 40px 60px;
@@ -39,7 +61,6 @@ header h1, header h2 {
     box-shadow: 0 2px 2px #eeeeee;
 }
 
-
 .summary div {
     border-left: 1px solid #eeeeee;
     padding: 10px 30px;
@@ -47,6 +68,11 @@ header h1, header h2 {
 
 .summary div:last-child {
     border-right: 1px solid #eeeeee;
+}
+
+i {
+    margin-right: 10px;
+    color: #bbbbbb;
 }
 
 footer {
